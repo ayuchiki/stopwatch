@@ -1,0 +1,55 @@
+@charset "utf-8";
+/*全体*/
+body {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-color: #ffe4e1;
+}
+.wrapper{
+  max-width: 350px;
+  margin: 150px auto;
+  color: #ffffff;
+}
+#header,#calc{
+  box-sizing: border-box;
+  text-align: center;
+}
+/*ヘッダー*/
+#header {
+  font-size: 24px;
+  padding: 20px;
+}
+/*テキスト*/
+input{
+  box-sizing: border-box;
+  width: 88%;
+  height: 3.5rem;
+  font-size: 1.6rem;
+  text-align: right;
+  padding: 0 0.75rem;
+  color: #cd5c5c;
+  border-color: #dcdcdc;
+}
+/*ボタン関係*/
+button{
+  font-size: 18px;
+  width: 20%;
+  height: 3.5rem;
+  color: #cd5c5c;
+  vertical-align: middle;
+  border-color: #fff;
+  background-color: #fffafa
+}
+button:hover{
+  background-color: #ffc0cb;
+}
+
+.wide{
+  font-size: 18px;
+  width: 41%;
+  height: 3.5rem;
+  color: #db7093;
+  vertical-align: middle;
+  border-color: #fff;
